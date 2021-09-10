@@ -1,0 +1,27 @@
+.card-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 4px 4px 9px 5px rgba(0,0,0,0.2);
+  max-width: 390px;
+  width: 690px;
+}
+
+.card .box-title {
+  padding: 15px;
+}
+
+.card .title {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.break {
+  flex-grow: 1;
+  flex-basis: 100%;
+}

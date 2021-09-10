@@ -1,0 +1,21 @@
+.accordion {
+  max-width: 370px;
+  cursor: pointer;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.accordion h3 {
+  font-size: 1.2rem;
+}
+
+.btn-contact {
+  background-color: #faf5f6;
+  color: #000000;
+  border: none;
+}
+
+.btn-contact:hover {
+  background-color: #fdccd6;
+}

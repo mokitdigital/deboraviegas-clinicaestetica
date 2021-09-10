@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'Cera Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/Cera-Pro-Regular-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('~assets/fonts/Cera-Pro-Black-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('~assets/fonts/Cera-Pro-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('~assets/fonts/Cera-Pro-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url('~assets/fonts/Cera-Pro-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('~assets/fonts/Cera-Pro-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/DancingScript-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('~assets/fonts/DancingScript-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('~assets/fonts/DancingScript-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('~assets/fonts/DancingScript-Bold.ttf') format('truetype');
+}
+
+:root {
+  --bg: rgb(250, 245, 246);
+}
+
+body {
+  background-color: var(--bg);
+  font-family: 'Cera Pro', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fdccd6;
+}
+
+.main {
+  padding: 20px;
+}
+
+h1, h2 {
+  font-family: 'Dancing Script', sans-serif;
+}
