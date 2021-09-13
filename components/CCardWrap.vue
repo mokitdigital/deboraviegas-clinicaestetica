@@ -1,69 +1,60 @@
 <template>
-  <div>
-    <div class="card-wrap flex-wrap">
-      <a
-        class="card-social card-social--facebook card-social--animate-up"
-      >
+  <b-row class="d-flex justify-content-center align-items-center p-5">
+    <b-col
+      xl="4"
+      lg="4"
+      md="6"
+      sm="12"
+      class="d-flex justify-content-center align-items-center"
+    >
+      <a class="card-social card-social--facebook card-social--animate-up">
         <div class="card-social__front">
           <font-awesome-icon
-            :icon="faFacebook"
+            :icon="faTiktok"
             class="card-social__icon fa fa-facebook"
           />
-          <div class="card-social__data">13 K</div>
+          <!-- <div class="card-social__data">13 K</div> -->
         </div>
 
         <div class="card-social__back">
-          <div class="card-social__action" @click="openFacebook()">Curta</div>
+          <div class="card-social__action" @click="openTiktok()">Curta</div>
         </div>
       </a>
-
-      <a
-        class="card-social card-social--twitter card-social--animate-up"
-      >
-        <div class="card-social__front">
-          <font-awesome-icon
-            :icon="faTwitter"
-            class="card-social__icon fa fa-twitter"
-          />
-          <div class="card-social__data">10.5 K</div>
-        </div>
-
-        <div class="card-social__back">
-          <div class="card-social__action" @click="openTwitter">Siga-me</div>
-        </div>
-      </a>
-
-      <a
-        class="
-          card-social card-social--instagram card-social--animate-up
-        "
-      >
+    </b-col>
+    <b-col
+      xl="4"
+      lg="4"
+      md="6"
+      sm="12"
+      class="d-flex justify-content-center align-items-center"
+    >
+      <a class="card-social card-social--instagram card-social--animate-up">
         <div class="card-social__front">
           <font-awesome-icon
             :icon="faInstagram"
             class="card-social__icon fa fa-instagram"
           />
-          <div class="card-social__data">11 K</div>
+          <!-- <div class="card-social__data">11 K</div> -->
         </div>
 
         <div class="card-social__back">
           <div class="card-social__action" @click="openInstagram">Siga-me</div>
         </div>
       </a>
-    </div>
-  </div>
+    </b-col>
+  </b-row>
 </template>
 
 <script>
 import {
-  faFacebook,
   faTwitter,
   faInstagram,
+  faTiktok,
 } from '@fortawesome/free-brands-svg-icons'
 export default {
   computed: {
-    faFacebook() {
-      return faFacebook
+    faTiktok() {
+      return faTiktok
     },
     faTwitter() {
       return faTwitter
@@ -73,15 +64,15 @@ export default {
     },
   },
   methods: {
-    openFacebook () {
+    openFacebook() {
       window.location.href = 'http://facebook.com'
     },
-    openInstagram () {
+    openInstagram() {
       window.location.href = 'http://instagram.com'
     },
-    openTwitter () {
+    openTwitter() {
       window.location.href = 'http://twitter.com'
-    }
-  }
+    },
+  },
 }
 </script>

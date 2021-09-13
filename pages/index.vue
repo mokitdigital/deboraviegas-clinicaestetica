@@ -50,11 +50,11 @@ export default {
           to: '/redes-sociais',
           text: 'Entre em minhas redes sociais'
         },
-        {
+        /* {
           image: 'parcerias',
           to: '/parcerias',
           text: 'Parceiros'
-        }
+        } */
       ]
     }
   }

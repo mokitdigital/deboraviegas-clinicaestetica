@@ -6,13 +6,13 @@ export const proced = [
         text: "Procedimento de nano pigmentação labial - com retorno",
         title: "Flow Lips",
         toggle: "flowlips",
-        value: "1430"
+        value: "650"
       },
       {
         text: "Procedimento de hiper hidratação labial",
         title: "Pump Lips",
         toggle: "pumplips",
-        value: "440"
+        value: "320"
       }
     ]
   },
@@ -20,22 +20,16 @@ export const proced = [
     name: 'Facial',
     types: [
       {
-        text: "Procedimento com Master",
-        title: "Avaliação",
-        toggle: "facialavaliacao",
-        value: "125"
-      },
-      {
         text: "Procedimento com linha",
         title: "Epilação Facial",
         toggle: "facialepilacaofacial",
-        value: "125"
+        value: "85"
       },
       {
         text: "Procedimento com linha",
-        title: "Epilação com buço",
+        title: "Epilação com Buço",
         toggle: "facialepilacaobuco",
-        value: "50"
+        value: "45"
       }
     ]
   },
@@ -46,7 +40,7 @@ export const proced = [
         text: "Procedimento de design de sobrancelhas",
         title: "Flow Design",
         toggle: "sobrancelhaflowdesign",
-        value: "125"
+        value: "95"
       },
       {
         text: "Procedimento brow lamination",
@@ -58,7 +52,7 @@ export const proced = [
         text: "Procedimento nanoblading de sabrancelha - com retorno",
         title: "Flowbrows",
         toggle: "sobrancelhaflowbrows",
-        value: "1430"
+        value: "650"
       }
     ]
   },
@@ -69,19 +63,19 @@ export const proced = [
         text: "Procedimento de tratamento de crescimento para sobrancelhas",
         title: "Growp Up Brows",
         toggle: "growpupbrows",
-        value: "440"
+        value: "320"
       },
       {
         text: "Procedimento de tratamento de crescimento para barba",
         title: "Grow Up Barba",
         toggle: "growupbarba",
-        value: "440"
+        value: "380"
       },
       {
         text: "Procedimento de tratamento de crescimento capilar",
         title: "Grow Up Capilar",
         toggle: "growupcapilar",
-        value: "440"
+        value: "420"
       }
     ]
   },
@@ -89,28 +83,10 @@ export const proced = [
     name: 'Olhos',
     types: [
       {
-        text: "Procedimento de delineado de olhos - com retorno",
-        title: "Flow Line",
-        toggle: "olhosflowline",
-        value: "1430"
-      },
-      {
         text: "Procedimento de alongamento dos cílios naturais",
         title: "Flow Lashes",
         toggle: "olhosflowlashes",
-        value: "440"
-      },
-      {
-        text: "Procedimento de extensão de cílios",
-        title: "Flow Lashes Extension",
-        toggle: "olhosflowlashesextesion",
-        value: "620"
-      },
-      {
-        text: "Procedimento de manutenção extensão de cílios",
-        title: "Flow Lashes Extension (Manutenção)",
-        toggle: "olhosflowlashesextesionmanutencao",
-        value: "350"
+        value: "380"
       }
     ]
   },
@@ -121,7 +97,24 @@ export const proced = [
         text: "Procedimento por região - com retorno",
         title: "Nanopigmentação Capilar",
         toggle: "nanopigmentacaocapilar",
-        value: "1250"
+        value: "1150"
+      }
+    ]
+  },
+  {
+    name: 'Camuflagem',
+    types: [
+      {
+        text: "Procedimento por região - com retorno",
+        title: "Camuflagem de Estrias",
+        toggle: "camuflagemdeestrias",
+        value: "1150"
+      },
+      {
+        text: "Procedimento por região - com retorno",
+        title: "Camuflagem de Cicatriz",
+        toggle: "camuflagemdecicatriz",
+        value: "1150"
       }
     ]
   }
