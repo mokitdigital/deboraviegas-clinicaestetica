@@ -5,13 +5,13 @@
       lg="4"
       md="6"
       sm="12"
-      class="d-flex justify-content-center align-items-center"
+      class="d-flex justify-content-center align-items-center m-2"
     >
-      <a class="card-social card-social--facebook card-social--animate-up">
+      <a class="card-social card-social--tiktok card-social--animate-up">
         <div class="card-social__front">
           <font-awesome-icon
             :icon="faTiktok"
-            class="card-social__icon fa fa-facebook"
+            class="card-social__icon fa fa-tiktok"
           />
           <!-- <div class="card-social__data">13 K</div> -->
         </div>
@@ -26,7 +26,7 @@
       lg="4"
       md="6"
       sm="12"
-      class="d-flex justify-content-center align-items-center"
+      class="d-flex justify-content-center align-items-center m-2"
     >
       <a class="card-social card-social--instagram card-social--animate-up">
         <div class="card-social__front">
@@ -47,7 +47,6 @@
 
 <script>
 import {
-  faTwitter,
   faInstagram,
   faTiktok,
 } from '@fortawesome/free-brands-svg-icons'
@@ -56,22 +55,16 @@ export default {
     faTiktok() {
       return faTiktok
     },
-    faTwitter() {
-      return faTwitter
-    },
     faInstagram() {
       return faInstagram
     },
   },
   methods: {
     openFacebook() {
-      window.location.href = 'http://facebook.com'
+      window.location.href = 'http://tiktok.com'
     },
     openInstagram() {
       window.location.href = 'http://instagram.com'
-    },
-    openTwitter() {
-      window.location.href = 'http://twitter.com'
     },
   },
 }
