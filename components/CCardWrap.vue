@@ -61,10 +61,10 @@ export default {
   },
   methods: {
     openFacebook() {
-      window.location.href = 'http://tiktok.com'
+      // window.location.href = 'http://tiktok.com'
     },
     openInstagram() {
-      window.location.href = 'http://instagram.com'
+      window.location.href = 'https://www.instagram.com/deboraviegasbeauty/'
     },
   },
 }
